@@ -1,29 +1,35 @@
-Добрый день.
+Good day
 
-Сегодня я хотел бы представить вашему вниманию мод под названием Call to Arms для Empire Total War. Вообще изначально я создавал этот мод для себя и не планировал его выставлять, но после того как мод разросся до приличных размеров, я подумал что будет немного эгоистично в одиночку наслаждаться игрой, тогда как некоторые игроки скучают за ванильной Empire. По сути мод не добавляет в игру ничего нового, но только исправляет некоторые недочёты, которые по моему мнению допустили разработчики Empire. Вобщем не буду ходить вокруг да около и вкратце опишу основные изменения которые затрагиваются модом.
+Today i would like to present you the mode named Call to Arms for Empire Total War. At first, i was developing this mode just for myself and didn't plan to post it, but after it grew to significant size, i thought that it would be a bit selfish
+to enjoy it alone, while some gamers get bored playing vanila Empire. In fact, the mode doesn't add anything new to the game, but only fixes some issues that were, in my oppinion, present in vanila. So, i don't want to talk much and shortly going to describe you some major changes.
 
-- Изменение боевой механики. Помните как в ванильной Empire тяжело было противопоставить что-либо против шквального огня линейной пехоты? Теперь это не так. Штык-нож такое же смертельное оружие как и мушкет, кавалерия стала многочисленнее, а артиллерия может запускать картечь на приличные расстояния. Вобщем в словах всё не рассказать, лучше поиграйте и сами прочувствуете.
+- *Change of combat mechanic*. Do you remember how hard it was to put something against of devastating fire of linear infantry in vanila Empire? Now it's not like that anymore. Now bayonet is as deadly weapon as a bullet, cavalry became more numerious, and artillery can launch a canister shots for significant distances. It's hard to explain everything in words, so you better try it and sense the changes yourself.
 
-- Год длится не два хода, а двенадцать. Мне всегда казалось нереалестичным, что вражеская армия может свободно гулять по вашей территории на протяжении полугода, а вам остаётся только стоять на месте и наблюдать за этим безобразием. Теперь один ход длится один месяц и у вас есть достаточно времени для стратегических манёвров.
+- *Year is now not two turns, but twelve*. It always looked unrealistic to me, when enemy army was freely walking through your lands for a half an year, while you only can stay aside and keep watching this disaster. Now one turn is equal to one month and you have enough of time for strategic maneuvers.
 
-- Более историчные линейки войск. Будем откровенны, касательно разнообразия юнитов разработчики Empire кое-где схалтурили. Например, у Персии, Империи Моголов и Майсура совершенно одинаковые войска, хотя это совершенно разные государства с разными военными традициями! Мне пришлось перелопатить целую груду материала из Википедии по каждой стране, что предствалена в Empire (за исключением эмерджентов, они пока в планах). Вобщем я постарался максимально аккуратно с исторической точки зрения переделать линейки войск, а насколько у меня это получилось судить вам.
+- *More historical units*. Let's be honest, regarding variety of units, developers of Empire skived in some places. For example, Persia, Mughal Empire and Mysore had absolutely same units, while in reality they were quite different countries with different military traditions! I had to go through many, many pages of Wikipedia regarding military history of each country, present in Empire (excluding emergents, they are in plans for now). So, i tried to reforge the units from historical point of view, and how successfull i was in it, i leave for your judgement.
 
-- Экономическое развитие. Помните сколько времени и денег требовалось для развития провинции в Rome или Medieval Total War? Не кажется ли вам, что в Empire экономическое развитие проходит как-то черезчур незаметно? Развиваться приходится больше экстенсивно, чем интенсивно. Мод исправляет это упущение и теперь развиваться приходится дольше и дороже, но и выгоды повышаются тоже.
+- *Economic development*. Do you remember how much money and time was required to develop a province in Rome or Medieval Total War? Don't you think that in Empire economic development goes somehow insensibly? You have to develop more extensively than intensively. The mod fixes this issue and now development would cost you more time and money, but benefits are greater as well.
 
-Мод построен на основе Startpos Mod’а (http://www.internetwars.ru/ETWmods/Startpos-Mod/Startpos-Mod.htm). Выражаю огромную благодарность автору и надеюсь что он не будет возражать против такого использования его мода. Так же Call to Arms вдохновлён такими модами как Empire Realism и A Proper Empire, спасибо вам ребята, за то что вы делаете.
+Mod is built on the basis of Startpos Mod (http://www.internetwars.ru/ETWmods/Startpos-Mod/Startpos-Mod.htm). I give a big credit to the author and i hope he would not mind a such usage of his work. Also, Call to Arms mod is inspired by such mods as Empire Realism and A Proper Empire, thanks to authors for everything they do.
 
-Теперь по установке.
-1. call_to_arms.pack и call_to_arms_ru.pack поместить в папку data.
-2. call_to_arms_ru.pack добавляет русскую локализацию. Если русский текст всё же не будет отображаться, возможно у вас в папке data находится patch_ru.pack файл. Его нужно удалить или переместить в другую папку.
-3. startpos.esf и scripting.lua поместить в папку data/campaigns/main.
-4. Написать в строке поиска %appdata%, открыть эту папку. Далее открыть The Creative Assembly/Empire/scripts. Если там присутствует файл user.empire_script.txt, то прописать в нем строки mod call_to_arms.pack; и mod call_to_arms_ru.pack. Если такого файла нет, то создайте его, пропишите строки и сохраните с кодировкой Unicode.
+#### Now regarding installation.
+1. Move call_to_arms.pack to *data* folder.
+2. **Currently no english localisation is available!**. Russian localisation can be added by moving call_to_arms_ru.pack file to *data* folder. If you don't see the text yet, it might be that you have patch_ru.pack file in *data* folder. You need to delete it or move somewhere.
+3. Move startpos.esf and scripting.lua to data/campaigns/main.
+4. In the search field write %appdata% and open the folder. Then go to The Creative Assembly/Empire/scripts. If you have there file named user.empire_script.txt, write following lines into it:
+```
+mod call_to_arms.pack;
+mod call_to_arms_ru.pack; *-if you need russian localisation*
+```
+If you don't have this file - create it, write the code and save as Unicode.
 
-P. S. У меня есть ряд идей, которые я хотел бы воплотить в следующих версиях, но из-за нехватки навыков моддинга не могу за них взяться. Если кто-то нибудь может помочь советом, буду очень благодарен.
+P. S. I have a bunch of ideas which i would like to realise in next versions, but due to my lack of modding skills i cannot approach them. If someone can help me with advise i would very appreciate it.
 
-- Пути снабжения. Армии нужны припасы, продовольствие и пополнения, а потому она зависима от инфраструктуры региона. В ванильной Empire этот момент упущен совершенно. Можно ли сделать так, чтобы армия несла небольшие потери находясь вдали от дорог или портов, а пополняться могла только в них?
+- *Supply roads*. Armies require provisions, ammunition and reinforcements, so they are depended from infastructure of the region. In vanila Empire this aspect is missed complitely. Is it possible to make that army suffers little casualties when placed far away from roads or ports, and can be supplied only on them?
 
-- Несговорчивость ИИ. ИИ на удивление упёрт и кажется совершенно не дорожит ни территорией, ни деньгами, ни людьми. Находясь даже в совершенно безвыходном положении он с трудом идёт на какие-либо уступки победителю. Можно ли как-нибудь сделать ИИ более “сговорчивым”?
+- *A difficile AI*. AI is surprisingly stubborn and looks like does not value neither territory, neither money, neither people. Even when placed into hopeless conditions he hardly goes to any concessions to winner. Is it possible to make AI somehow more "pliable"?
 
-- Коалиции. На высоком и очень высоком уровне сложности, соседние страны часто образовывают коалиции против игрока, как будто это Гитлер или Наполеон. Можно ли сделать так, чтобы ИИ вёл себя либо сдержаннее, либо так же агрессивно по отношению к другим странам?
+- *Coalitions*. On hard and very hard campaign difficulties, neighbouring counties are oftenly get allied against of player, as if he would be Hitler or Napoleon. Is it possible to make that either AI would behave more reservedly, or either to be as agressive to other counties as to player?
 
-Вот в принципе и всё, оставляю вас распробовать мод. Если вы выявите какие-либо баги или недоработки по балансу, или если у вас есть какие-то дельные предложения по улучшению мода, прошу, не стесняйтесь писать мне на почту - a.yerkesh@gmail.com. Всем побед и приятной игры!
+So, that actually it is. I leave you to try out the mod. If you find some bugs or balance issues, or if you have some worthwile suggestions regarding the mode, please, don't hesistate to write it here, or to my email - a.yerkesh@gmail.com. Have a nice game!
